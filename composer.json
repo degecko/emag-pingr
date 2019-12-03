@@ -1,0 +1,6 @@
+{
+    "name": "gecko/emag-pingr",
+    "require": {
+        "guzzlehttp/guzzle": "^6.4"
+    }
+}

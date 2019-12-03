@@ -1,0 +1,6 @@
+/.idea
+/vendor
+log
+prev-prices.json
+urls.txt
+composer.lock
