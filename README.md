@@ -32,3 +32,7 @@ Inlocuiti `/full/path/to` cu path-ul vostru catre proiect.
 ## Alertele
 
 Alertele vor fi scrise in fisierul setat in variabila `$alertsFile` din `index.php`, deci va trebui sa modificati variabila cu path-ul catre un fisier pe care vreti sa-l scrie in cazul vostru, atunci cand exista alerte.
+
+Eu l-am pus pe desktop, pentru ca il rulez pe PC si-mi sare in ochi daca apare ceva acolo.
+
+Daca il rulati pe-un server, ar fi o idee sa va trimiteti un email cand apare o alerta.
