@@ -10,4 +10,25 @@ Pentru a crea mai usor request-uri ce tin cont de cookie-urile generate de emag,
 
 ## Pasii de instalare
 
-1. Descarcati sursa: 
+Descarcati sursa si instalati dependintele:
+
+```
+git clone git@github.com:degecko/emag-pingr.git
+cd emag-pingr
+composer init # enter la toate intrebarile
+composer install
+```
+
+Introduceti toate adresele produselor de care sunteti interesati intr-un fisier numit `urls.txt`.
+
+Setati un cronjob sa ruleze index.php in fiecare ora:
+
+```
+0 * * * * cd /full/path/to/emag-pingr && php index.php > log
+```
+
+Inlocuiti `/full/path/to` cu path-ul vostru catre proiect.
+
+## Alertele
+
+Alertele vor fi scrise in fisierul setat in variabila `$alertsFile` din `index.php`, deci va trebui sa modificati variabila cu path-ul catre un fisier pe care vreti sa-l scrie in cazul vostru, atunci cand exista alerte.
